@@ -1,0 +1,76 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Marriott Marquis",
+            "Location__Latitude__s": 37.785143,
+            "Location__Longitude__s": -122.403405,
+            "RecordType": {
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v42.0/sobjects/RecordType/0125B0000009SsyQAE"
+                },
+                "Name": "Standard Account"
+            },
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "Name": "James Kenny",
+                        "Account": {
+                            "attributes": {
+                                "type": "Account",
+                                "url": "/services/data/v42.0/sobjects/Account/0015B00000QQiKMQA1"
+                            },
+                            "Name": "Marriott Marquis"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Hilton Union Square",
+            "Location__Latitude__s": 37.786164,
+            "Location__Longitude__s": -122.410137,
+            "RecordType": {
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v42.0/sobjects/RecordType/0125B0000009SsyQAE"
+                },
+                "Name": "Standard Account"
+            },
+            "Contacts": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Hyatt",
+            "Location__Latitude__s": 37.794157,
+            "Location__Longitude__s": 122.396311,
+            "RecordType": {
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v42.0/sobjects/RecordType/0125B0000009SsyQAE"
+                },
+                "Name": "Standard Account"
+            },
+            "Contacts": {
+                "records": []
+            }
+        }
+    ]
+}

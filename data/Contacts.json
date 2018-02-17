@@ -1,0 +1,19 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "Name": "James Kenny",
+            "AccountId": "@AccountRef1",
+            "Account": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0015B00000QQiKMQA1"
+                },
+                "Name": "Marriott Marquis"
+            }
+        }
+    ]
+}
